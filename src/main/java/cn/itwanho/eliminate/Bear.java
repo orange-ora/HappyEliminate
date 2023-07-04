@@ -1,11 +1,14 @@
 package cn.itwanho.eliminate;
 
+import java.awt.*;
+
 /**
  * 熊
  */
 public class Bear extends Element{
 
-    public Bear(int x, int y) {
-        super(x, y);
+
+    public Bear(Image elementImage, int x, int y) {
+        super(elementImage, x, y);
     }
 }
