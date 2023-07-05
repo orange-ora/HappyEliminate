@@ -14,4 +14,4 @@
 ###    重新生成元素，若还是可消则重复b步骤，直到没有可消元素为止
 
 ## 游戏效果图
-### 地址：https://imagesimages-1317416276.cos.ap-nanjing.myqcloud.com/image/202307052111914.png
+### 地址：https://imagesimages-1317416276.cos.ap-nanjing.myqcloud.com/image/202307052125101.png
