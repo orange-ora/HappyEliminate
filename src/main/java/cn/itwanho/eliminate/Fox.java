@@ -1,12 +1,21 @@
 package cn.itwanho.eliminate;
 
-import java.awt.*;
+import javax.swing.*;
 
 /**
  * 狐狸
  */
 public class Fox extends Element{
-    public Fox(Image elementImage, int x, int y) {
-        super(elementImage, x, y);
+    public Fox(int x, int y) {
+        super(x, y);
+    }
+
+    /**
+     *
+     * @return 返回狐狸图
+     */
+    @Override
+    public ImageIcon getImage() {
+        return Images.fox;
     }
 }

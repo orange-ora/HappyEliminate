@@ -6,12 +6,12 @@ import javax.swing.*;
  * 图片类
  */
 public class Images {
-    public static ImageIcon background; // 背景图
-    public static ImageIcon bear; // 小熊图
-    public static ImageIcon bird; // 小鸟图
-    public static ImageIcon fox; // 狐狸图
-    public static ImageIcon frog; // 青蛙
-    public static ImageIcon[] bombs; // 爆炸图数组
+    public static ImageIcon background;   // 背景图
+    public static ImageIcon bear;         // 小熊图
+    public static ImageIcon bird;         // 小鸟图
+    public static ImageIcon fox;          // 狐狸图
+    public static ImageIcon frog;         // 青蛙
+    public static ImageIcon[] bombs;      // 爆炸图数组
 
     // 加载图片
     static {

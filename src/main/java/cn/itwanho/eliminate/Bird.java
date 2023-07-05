@@ -1,13 +1,22 @@
 package cn.itwanho.eliminate;
 
-import java.awt.*;
+import javax.swing.*;
 
 /**
  * 鸟
  */
 public class Bird extends Element{
 
-    public Bird(Image elementImage, int x, int y) {
-        super(elementImage, x, y);
+    public Bird(int x, int y) {
+        super(x, y);
+    }
+
+    /**
+     *
+     * @return 返回小鸟图
+     */
+    @Override
+    public ImageIcon getImage() {
+        return Images.bird;
     }
 }

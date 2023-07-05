@@ -1,14 +1,21 @@
 package cn.itwanho.eliminate;
 
-import java.awt.*;
+import javax.swing.*;
 
 /**
  * 熊
  */
 public class Bear extends Element{
+    public Bear(int x, int y) {
+        super(x, y);
+    }
 
-
-    public Bear(Image elementImage, int x, int y) {
-        super(elementImage, x, y);
+    /**
+     * 重写getImage()获取图片
+     * @return 返回小熊图片
+     */
+    @Override
+    public ImageIcon getImage() {
+        return Images.bear;
     }
 }
