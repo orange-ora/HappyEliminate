@@ -21,8 +21,6 @@
 
 #### 实现效果图：
 
-```html
 <a>https://imagesimages-1317416276.cos.ap-nanjing.myqcloud.com/image/202307052125101.png</a>
-```
 
 >如果对你有帮助的话 , 给个 **star** 吧~~
