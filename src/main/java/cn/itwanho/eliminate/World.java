@@ -82,9 +82,6 @@ public class World extends JPanel {
             default:
                 return new Frog(x, y);  // 青蛙
         }
-
-
-
     }
 
 
